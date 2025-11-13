@@ -5,7 +5,7 @@ This repository contains notes and explanations on how fundamental graph algorit
 Each problem discusses algorithmic logic, time complexity, and scalability in practical systems.
 
 📘 Contents
-Problem 1: Social Network Friend Suggestion
+## Problem 1: Social Network Friend Suggestion
 
 Concept: Suggesting potential friends by analyzing mutual connections.
 
@@ -23,7 +23,7 @@ Real-time traversal is infeasible for billion-scale networks.
 
 Social platforms use offline precomputation and distributed graph processing to generate and cache friend suggestions.
 
-Problem 2: Route Finding on Google Maps
+## Problem 2: Route Finding on Google Maps
 
 Concept: Finding the shortest path between two locations.
 
@@ -37,7 +37,7 @@ Handles negative edge weights correctly.
 
 Detects negative weight cycles, unlike Dijkstra’s algorithm.
 
-Problem 3: Emergency Response System
+## Problem 3: Emergency Response System
 
 Concept: Determining the shortest route for emergency vehicles.
 
@@ -55,7 +55,7 @@ Limitation:
 
 Dijkstra’s fails with negative weights due to its greedy nature.
 
-Problem 4: Network Cable Installation
+## Problem 4: Network Cable Installation
 
 Concept: Minimizing total cost to connect all nodes (e.g., offices, cities).
 
